@@ -1,4 +1,4 @@
-import typescript from '@rollup/plugin-typescript'
+import esbuild from 'rollup-plugin-esbuild'
 import commonjs from '@rollup/plugin-commonjs'
 import { nodeResolve } from '@rollup/plugin-node-resolve'
 import terser from '@rollup/plugin-terser'
@@ -40,7 +40,8 @@ const plugins = [
     browser: true,
     preferBuiltins: false
   }),
-  typescript({
+  esbuild({
+    include: /\.[jt]sx?$/,
     tsconfig: './tsconfig.json'
   }),
   commonjs()
