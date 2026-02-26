@@ -1,7 +1,7 @@
 {
-  "name": "leafer-x-ruler",
-  "version": "2.0.0",
-  "description": "Leafer ui ruler line plugin",
+  "name": "@sholva/leafer-x-ruler",
+  "version": "2.0.2",
+  "description": "Leafer UI 2.x compatible ruler line plugin",
   "author": "LvHuaiSheng <lvhuaisheng_k@163.com>",
   "keywords": [
     "leafer-ui",
@@ -47,7 +47,7 @@
     "cross-env": "^7.0.3",
     "eslint": "^8.56.0",
     "jsdom": "^22.1.0",
-    "leafer-ui": "^1.0.5",
+    "leafer-ui": "^2.0.0",
     "rollup": "^3.29.4",
     "rollup-plugin-dts": "^6.1.0",
     "rollup-plugin-livereload": "^2.0.5",
@@ -60,8 +60,8 @@
     "lodash": "^4.17.21"
   },
   "dependencies": {
-    "@leafer-in/editor": "^1.0.5",
-    "@leafer-ui/core": "^1.0.5",
-    "@leafer-ui/interface": "^1.0.5"
+    "@leafer-in/editor": "^2.0.0",
+    "@leafer-ui/core": "^2.0.0",
+    "@leafer-ui/interface": "^2.0.0"
   }
 }
